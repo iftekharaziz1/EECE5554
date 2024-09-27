@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: aziz_lab0
-Description: Description of aziz_lab0
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
