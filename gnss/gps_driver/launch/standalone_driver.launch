@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="port"/>
+<param name="port" value="$(arg port)"/>
+
+
+    <node pkg="gps_driver" type="standalone_driver.py" name="standalone_driver_node" output="screen">
+        
+    </node>
+    
+    
+</launch>
+
