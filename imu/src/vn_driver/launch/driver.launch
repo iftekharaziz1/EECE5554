@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="port"/>
+
+<param name="port" value="$(arg port)"/>
+
+
+    <node pkg="vn_driver" type="driver.py" name="imudata_sender" output="screen">        
+        
+    </node>
+
+    
+
+</launch>
