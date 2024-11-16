@@ -1,0 +1,5 @@
+Completed Ubuntu 20.04 dual-boot install.
+Created Github account.
+Installed Git.
+Setup Git and Github.
+Ready to use.
