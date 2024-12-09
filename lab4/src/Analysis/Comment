@@ -1,0 +1,13 @@
+1. COMMENT ON THE RESULTS TAKEN:
+
+To ensure there's less magnetic interference, the data taken was at open space in MCLaughing Playground. Most of the results observed are expected with expected errors in IMU sensor data, caused by environmental interference & sensor limitations. But, the magnetometer square data (fig11) has unexpected errors, for not being proper square figure. It maybe due to nearby magnetic interference caused by electronic devices; rapid changes in sensor's orientation relative to the magnetic field which maybe caused during sharp turns at corners causing step-like patterns. 
+
+The fig 7 & 14, displacement is calculated by integrating velocity over time, and velocity itself is derived from integrating acceleration. Any small errors in the acceleration measurements accumulate during these integrations, causing integration drift. Scaling errors in raw data or not taking into account the constant offset in the readings (gravitational acceleration) can cause unrealistic values like this.
+We can use techniques like filtering, recalibration of IMU sensor in controlled environment, test using a stationary sensor.
+
+
+
+2. COMMENT ON PLAN FOR LAB5:
+
+For Lab5, we have designed a IMU case to minimize vibration errors which can cause errors in accelerometer & gyroscope data. I will also take the readings in open fields with less electronic & magnetic interference. Before starting to take readings, I will take a control dataset to check the interference in the area & offset that data, as well as recalibrate the IMU sensor according to the places' interference data.
+
